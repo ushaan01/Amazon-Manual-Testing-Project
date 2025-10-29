@@ -35,7 +35,7 @@ Status	                             Pass/Fail based on the comparison of expecte
 
 🧾 Tools Used
 
-Microsoft Excel / Google Sheets – For creating and maintaining test cases.
+Microsoft Excel – For creating and maintaining test cases.
 
 ✅ Key Highlights
 
