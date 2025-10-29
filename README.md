@@ -1,4 +1,4 @@
-Amazon Application - Manual Testing Project
+Amazon Application - Manual Testing Project 
 📘 Project Overview
 
 This project focuses on manual testing of the Amazon web application.
