@@ -22,25 +22,25 @@ Place Order: Ensure that users can place an order successfully after selecting t
 
 Each test case in this project includes the following components:
 
-   Field                                    	Description
+   Field                                                  	Description
    
-Test Case ID	                       Unique identifier for each test case
+Test Case ID         	                        Unique identifier for each test case
 
-Test Case Title	                     Brief summary of what the test validates
+Test Case Title         	                     Brief summary of what the test validates
 
-Test Environment	                   Specifies where the testing is performed (e.g., Browser, OS)
+Test Environment         	                     Specifies where the testing is performed (e.g., Browser, OS)
 
-Pre-Conditions	                     Requirements that must be met before executing the test
+Pre-Conditions	                                 Requirements that must be met before executing the test
 
-Test Steps	                         Step-by-step procedure to perform the test
+Test Steps	                                    Step-by-step procedure to perform the test
 
-Test Data	                           Input data used for testing
+Test Data	                                    Input data used for testing
 
-Expected Result	                     The expected output or behavior
+Expected Result	                              The expected output or behavior
 
-Actual Result	                       The observed output or behavior
+Actual Result	                                 The observed output or behavior
 
-Status	                             Pass/Fail based on the comparison of expected and actual results
+Status	                                       Pass/Fail based on the comparison of expected and actual results
 
 
 🧾 Tools Used
