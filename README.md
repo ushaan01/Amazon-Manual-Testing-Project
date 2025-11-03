@@ -10,49 +10,87 @@ Testing Focuses on core functionalities of Amazon — such as login, product sea
 
 All the test cases are positive test scenarios, designed to verify that the application behaves as expected under valid conditions.
 
-🧩 Modules Covered
+🧩 Project Information
 
-Login Functionality: Validate that users can log in successfully using valid credentials.
 
-Search for a Product: Verify that users can search for a product using the search bar and relevant results are displayed.
+| **Field**            | **Details**                           |
 
-Add Product to Cart: Confirm that users can add selected products to the shopping cart.
+| **Project Name**     | Amazon Application                    |
 
-Apply Promo Code: Check that users can apply a valid promo code and the discount is correctly applied.
+| **Created By**       | Ulesha                                |
 
-Place Order: Ensure that users can place an order successfully after selecting the product and applying the promo code.
+| **Creation Date**    | 05-02-2025                            |
 
-⚙️ Test Design Details
+| **Reviewed By**      | Preeti                                |
 
-Each test case in this project includes the following components:
-   
-Test Case ID:
-             Unique identifier for each test case
+| **Reviewed Date**    | 05-07-2025                            |
 
-Test Case Title:
-                Brief summary of what the test validates
+| **Testing Type**     | Functional / Manual Testing           |
 
-Test Environment:
-                 Specifies where the testing is performed (e.g., Browser, OS)
+| **Test Environment** | Android App, iOS App, Web Application |
 
-Pre-Conditions:
-               Requirements that must be met before executing the test
+| **Tools Used**       | Excel for Test Case Documentation     |
 
-Test Steps:
-           Step-by-step procedure to perform the test
 
-Test Data:
-           Input data used for testing
 
-Expected Result:
-                The expected output or behavior
+⚙️ Test Details
 
-Actual Result:
-              The observed output or behavior
+1️⃣ Login Functionality
 
-Status:
-       Pass/Fail based on the comparison of expected and actual results
+Precondition: User is logged out
 
+Steps:
+
+Open the app
+
+Enter valid username and password
+
+Expected Result: User should be directed to the login screen
+
+2️⃣ Search for Product
+
+Precondition: User is logged in
+
+Steps:
+
+Enter product name in the search bar
+
+Expected Result: Relevant product search results are displayed
+
+3️⃣ Add Product to Cart
+
+Precondition: User is logged in and product page is open
+
+Steps:
+
+
+Navigate to the product page
+
+Click "Add to Cart" button
+
+Expected Result: Product should be added to the cart successfully
+
+
+4️⃣ Apply Promo Code
+
+Precondition: User is in checkout process
+
+Steps:
+
+Enter valid promo code (e.g., "Winter20")
+
+Expected Result: Discount should be applied successfully
+
+
+5️⃣ Place an Order
+
+Precondition: Product is added to cart and promo code applied
+
+Steps:
+
+Click “Place Order”
+
+Expected Result: Order confirmation message displayed
 
 🧾 Tools Used
 
@@ -61,15 +99,29 @@ Microsoft Excel – For creating and maintaining test cases.
 ✅ Key Highlights
 
 Covers major functional areas of the Amazon shopping workflow.
+
 All test cases are written in a clear, structured, and easy-to-understand format.
+
 Ensures smooth end-to-end user experience validation.
+
+
+
+📊 Test Execution Summary
+
+| **Total Test Cases** | **Passed** | **Failed** | **Execution Date** |
+
+
+| 5                    | 5          | 0          | 05-05-2025         |
+
 
 📂 Project File
 
 The test cases are available in the file:
+
 Amazon Application.csv
 
 👩‍💻 Author
 
 Usha Nazare
+
 Manual & Automation Testing Enthusiast | Selenium with Python Learner
