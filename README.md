@@ -3,6 +3,9 @@ Amazon Application - Manual Testing Project
 📘 Project Overview
 
 This project focuses on manual testing of the Amazon web application.
+
+The objective of this project is to ensure the core user flow works correctly and provides a smooth experience to customers.
+
 The main objective is to ensure that the core functionalities of Amazon — such as login, product search, adding products to the cart, applying promo codes, and placing an order — work correctly without any issues.
 
 All the test cases are positive test scenarios, designed to verify that the application behaves as expected under valid conditions.
